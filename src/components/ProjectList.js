@@ -9,19 +9,20 @@ import Project from "../Components/Project";
 
 
 
-
 const ProjectList = () => {
    
     const projectDetails = [
         {
+            id: 1,
             name: "Frienemies App",
-            img: {projectFR},
+            img: "{require('../Assets/Images/frienemies.png')}", 
             gitHubURL: "https://github.com/damiandeleon/project-2-group-3",
             gitHubTitle: "Link to GitHub Repository",
             deployURL: "https://damp-thicket-88352.herokuapp.com/login",
             deployTitle: "Link to Deployed Project"
         },
-            {
+        {
+            id: 2,
             name: "Vacation Planner Application",
             img: {projectVP},
             gitHubURL: "https://github.com/damiandeleon/vacation_planner/",
@@ -30,6 +31,7 @@ const ProjectList = () => {
             deployTitle: "Link to Deployed Project"
         },
         {
+            id: 3,
             name: "Day Planner Application",
             img: {projectDP},
             gitHubURL: "https://github.com/damiandeleon/work-day-scheduler",
@@ -38,6 +40,7 @@ const ProjectList = () => {
             deployTitle: "Link to Deployed Project"
         },
         {
+            id: 4,
             name: "Password Generator Application",
             img: {projectPG},
             gitHubURL: "https://github.com/damiandeleon/Password-Generator",
@@ -46,6 +49,7 @@ const ProjectList = () => {
             deployTitle: "Link to Deployed Project"
         },
         {
+            id: 5,
             name: "Weather Dashboard",
             img: {projectWD},
             gitHubURL: "https://github.com/damiandeleon/Weather-Dashboard/",
@@ -54,6 +58,7 @@ const ProjectList = () => {
             deployTitle: "Link to Deployed Project"
         },
         {
+            id: 6,
             name: "Note Taker Application",
             img: {projectNT},
             gitHubURL: "https://github.com/damiandeleon/noteTaker",
@@ -64,8 +69,7 @@ const ProjectList = () => {
     
     ];
     return (
-        <Project details={projectDetails} />
-     
+        <Project details={projectDetails} />    
     )
 
 };
