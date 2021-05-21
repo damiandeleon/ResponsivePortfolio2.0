@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url("./Assets/Images/cool-background.png");
+  background-repeat:repeat-y;
+  background-size: 100%; 
+  font-size: 16px;
+}
+.card img {
+  display: flex;
+  width: 300px;
+}
+
+.card-header {
+  font-family: 'Monoton';
+  /* font-weight: bold!important ; */
+  color: rgb(100, 117, 139) !important;
+  background-color: #FFFFFF;
+}
+.navbar-brand {
+  width: 200px;
+  text-align: center;
+  font-family: 'Monoton';
+  /* font-weight: bold!important ; */
+  /* background-color: rgb(100, 117, 139); */
+  color: rgb(100, 117, 139) !important;
+  font-size: xx-large;
+}
+.navbar {
+  background-color: lavender;
+}
+.btn {
+  background-color: rgb(100, 117, 139);
+  border-color: black;
+}
+.contactBox {
+  margin-left: 7%;
+  width: 50%;
+}
+
+p {color: rgb(100, 117, 139);}
+
+a {align-self: center;}
+
+.container{
+  background-color: transparent
+}
+
+.contactCard, .CardPad {
+  padding-bottom: 15px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;        
+}
+
+.pic1{
+  width: 350px;
+}
+
+#pic2{
+  width: 200px; 
+  margin-left: 5px;
+}
+
+#pic3{
+  width: 200px; 
+  margin-left: 5px;
+}
+
+#ProfilePic{
+  display: inline;
+  margin:auto
+}
