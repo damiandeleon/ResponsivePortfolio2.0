@@ -8,21 +8,25 @@ body {
   background-size: 100%; 
   font-size: 16px;
 }
-.card img {
+.img {
   display: flex;
   width: 300px;
 }
 
+.card {
+  background-color: lightgray;
+  margin: 10px;
+}
+
 .card-header {
   font-family: 'Monoton';
-  /* font-weight: bold!important ; */
   color: rgb(100, 117, 139) !important;
   background-color: #FFFFFF;
 }
 
 .CardPad {
-  width: max-content;
-  
+  display: inline-flex;
+
 }
 .navbar-brand {
   width: 200px;
