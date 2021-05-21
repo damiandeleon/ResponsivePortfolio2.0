@@ -2,7 +2,9 @@ import React from "react";
 import projectVP from "../Assets/Images/groupProjectVacationPlanner.png";
 import projectDP from '../Assets/Images/dayPlannerApp.png';
 import projectPG from "../Assets/Images/passwordGeneratorApp.png";
-
+import projectWD from "../Assets/Images/weatherDashboard.png";
+import projectNT from "../Assets/Images/noteTaker.png";
+import projectFR from "../Assets/Images/frienemies.png";
 
 const Project = () => {
     return (
@@ -44,9 +46,9 @@ const Project = () => {
                             <div class="col">
                                 <div class="card" style={{ width: "350px" }}>
                                     <p style={{ textAlign: "center", fontSize: "25px" }}>Password Generator Application</p>
-                                    <img src={projectPG} class="card-img-top" style={{ alignSelf: "center", border: "CornflowerBlue 5px solid" }} />
-                                    <a href="https://damiandeleon.github.io/Password-Generator/" target="blank"> Link to Deployed Project</a>
-                                    <a href="https://github.com/damiandeleon/Password-Generator" target="blank"> Link to GitHub Repository</a>
+                                    <img src={projectWD} class="card-img-top" style={{ alignSelf: "center", border: "CornflowerBlue 5px solid" }} />
+                                    <a href="https://damiandeleon.github.io/Weather-Dashboard/" target="blank"> Link to Deployed Project</a>
+                                    <a href="https://github.com/damiandeleon/Weather-Dashboard/" target="blank"> Link to GitHub Repository</a>
                                 </div>
                             </div>
 
@@ -54,17 +56,17 @@ const Project = () => {
                             <div class="col">
                                 <div class="card" style={{ width: "350px" }}>
                                     <p style={{ textAlign: "center", fontSize: "25px" }}>Password Generator Application</p>
-                                    <img src={projectPG} class="card-img-top" style={{ alignSelf: "center", border: "CornflowerBlue 5px solid" }} />
-                                    <a href="https://damiandeleon.github.io/Password-Generator/" target="blank"> Link to Deployed Project</a>
-                                    <a href="https://github.com/damiandeleon/Password-Generator" target="blank"> Link to GitHub Repository</a>
+                                    <img src={projectNT} class="card-img-top" style={{ alignSelf: "center", border: "CornflowerBlue 5px solid" }} />
+                                    <a href="https://damiandeleon.github.io/noteTaker/" target="blank"> Link to Deployed Project</a>
+                                    <a href="https://github.com/damiandeleon/noteTaker" target="blank"> Link to GitHub Repository</a>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card" style={{ width: "350px" }}>
                                     <p style={{ textAlign: "center", fontSize: "25px" }}>Password Generator Application</p>
-                                    <img src={projectPG} class="card-img-top" style={{ alignSelf: "center", border: "CornflowerBlue 5px solid" }} alt="placeholder for pics Placeholder-Image-350px-x-350px" />
-                                    <a href="https://damiandeleon.github.io/Password-Generator/" target="blank"> Link to Deployed Project</a>
-                                    <a href="https://github.com/damiandeleon/Password-Generator" target="blank"> Link to GitHub Repository</a>
+                                    <img src={projectFR} class="card-img-top" style={{ alignSelf: "center", border: "CornflowerBlue 5px solid" }} alt="placeholder for pics Placeholder-Image-350px-x-350px" />
+                                    <a href="https://damp-thicket-88352.herokuapp.com/login" target="blank"> Link to Deployed Project</a>
+                                    <a href="https://github.com/damiandeleon/project-2-group-3" target="blank"> Link to GitHub Repository</a>
                                 </div>
                             </div>
 

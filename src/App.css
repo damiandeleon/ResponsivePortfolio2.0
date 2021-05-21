@@ -14,7 +14,6 @@ body {
 }
 
 .card {
-  background-color: lightgray;
   margin: 10px;
 }
 
@@ -97,6 +96,5 @@ a {align-self: center;}
 }
 
 #ProfilePic{
-  display: inline;
-  margin:auto
+  width:25%;
 }

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Wrapper from './components/Wrapper'
 import Header from './components/Header';
@@ -12,9 +12,10 @@ function App() {
     <Router>
     <div className="App">
       <Header />
-      <Project />
-      
-      
+      <Route path="/" exact component={About} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/project" component={Project} />
       
       <Footer />
       </div>
