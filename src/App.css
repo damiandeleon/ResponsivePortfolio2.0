@@ -17,7 +17,7 @@ body {
   margin: 10px;
 }
 
-.card-header {
+.cardHeader {
   font-family: 'Monoton';
   color: rgb(100, 117, 139) !important;
   background-color: #FFFFFF;
