@@ -1,4 +1,4 @@
-import { React } from "react";
+import React  from "react";
 import projectVP from "../Assets/Images/groupProjectVacationPlanner.png";
 import projectDP from '../Assets/Images/dayPlannerApp.png';
 import projectPG from "../Assets/Images/passwordGeneratorApp.png";
@@ -15,7 +15,7 @@ const ProjectList = () => {
         {
             id: 1,
             name: "Frienemies App",
-            img: "{require('../Assets/Images/frienemies.png')}", 
+            img: projectFR, 
             gitHubURL: "https://github.com/damiandeleon/project-2-group-3",
             gitHubTitle: "Link to GitHub Repository",
             deployURL: "https://damp-thicket-88352.herokuapp.com/login",
@@ -24,7 +24,7 @@ const ProjectList = () => {
         {
             id: 2,
             name: "Vacation Planner Application",
-            img: {projectVP},
+            img: projectVP,
             gitHubURL: "https://github.com/damiandeleon/vacation_planner/",
             gitHubTitle: "Link to GitHub Repository",
             deployURL: "https://damiandeleon.github.io/vacation_planner/",
@@ -33,7 +33,7 @@ const ProjectList = () => {
         {
             id: 3,
             name: "Day Planner Application",
-            img: {projectDP},
+            img: projectDP,
             gitHubURL: "https://github.com/damiandeleon/work-day-scheduler",
             gitHubTitle: "Link to GitHub Repository",
             deployURL: "https://damiandeleon.github.io/work-day-scheduler/",
@@ -42,7 +42,7 @@ const ProjectList = () => {
         {
             id: 4,
             name: "Password Generator Application",
-            img: {projectPG},
+            img: projectPG,
             gitHubURL: "https://github.com/damiandeleon/Password-Generator",
             gitHubTitle: "Link to GitHub Repository",
             deployURL: "https://damiandeleon.github.io/Password-Generator/",
@@ -51,7 +51,7 @@ const ProjectList = () => {
         {
             id: 5,
             name: "Weather Dashboard",
-            img: {projectWD},
+            img: projectWD,
             gitHubURL: "https://github.com/damiandeleon/Weather-Dashboard/",
             gitHubTitle: "Link to GitHub Repository",
             deployURL: "https://damiandeleon.github.io/Weather-Dashboard/",
@@ -60,7 +60,7 @@ const ProjectList = () => {
         {
             id: 6,
             name: "Note Taker Application",
-            img: {projectNT},
+            img: projectNT,
             gitHubURL: "https://github.com/damiandeleon/noteTaker",
             gitHubTitle: "Link to GitHub Repository",
             deployURL: "",

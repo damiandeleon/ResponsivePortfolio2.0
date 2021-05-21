@@ -1,4 +1,4 @@
-import {React} from "react";
+import React from "react";
 // import projectVP from "../Assets/Images/groupProjectVacationPlanner.png";
 // import projectDP from '../Assets/Images/dayPlannerApp.png';
 // import projectPG from "../Assets/Images/passwordGeneratorApp.png";
