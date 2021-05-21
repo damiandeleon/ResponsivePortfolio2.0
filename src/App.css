@@ -19,6 +19,11 @@ body {
   color: rgb(100, 117, 139) !important;
   background-color: #FFFFFF;
 }
+
+.CardPad {
+  width: max-content;
+  
+}
 .navbar-brand {
   width: 200px;
   text-align: center;
@@ -55,6 +60,11 @@ a {align-self: center;}
 #page-container {
   position: relative;
   min-height: 100vh;
+}
+
+.portfolioPad {
+  display: inline;
+  margin:auto
 }
 
 #content-wrap {
