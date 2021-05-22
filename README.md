@@ -3,7 +3,6 @@
 * [Description](##description)
 * [Installation](##installation)
 * [Usage](##usage)
-* [License](##license)
 * [Questions](##questions)
 ## Description
 Hello!  You've reached my Responsive Portfolio.  Here, you can learn about me and hear my story.  You can also access my Resume and my Projects history.  Happy browsing!
@@ -15,8 +14,6 @@ Hello!  You've reached my Responsive Portfolio.  Here, you can learn about me an
 Npm i in your terminal.
 ## Usage
 launch the website at https://damiandeleon.github.io/ResponsivePortfolio2.0/ or to launch it locally by pressing NPM start after the installation in previous step. 
-## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 ## Questions
 Please see my github | Contact me for questions
 ------------ | -------------
