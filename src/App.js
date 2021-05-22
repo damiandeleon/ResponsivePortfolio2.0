@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, } from "react-router-dom";
+import { BrowserRouter as Router, Route, HashRouter, Switch } from "react-router-dom";
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -11,17 +11,20 @@ function App() {
 
   return (
     <div>
-      <Router>
+      <HashRouter>
         <div className="App">
           <Header />
-          <Route path="/" exact component={About} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/project" component={ProjectList}  />
+          <Switch>
+            <Route path="/" exact component={About} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/project" component={ProjectList} />
+          </Switch>
+
 
           <Footer />
         </div>
-      </Router>
+      </HashRouter>
 
     </div>
 
