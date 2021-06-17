@@ -7,16 +7,19 @@ const Footer = () => {
     let year = date.getFullYear();
     return (
         <footer id="footer">
-      
-            <h3>Designed by Damian De Leon Copyright © {year} 
-            <a href="https://github.com/damiandeleon"><IoLogoGithub /></a>
-                <a href="https://www.linkedin.com/in/damian-edmonson-de-leon-051b4b2b/"><FaLinkedinIn /></a>
-            </h3>
-            <h2>
+            <row>
+                <h6 >Designed by Damian De Leon Copyright © {year}
+                </h6>
+            </row>
+            <row>
+                <column style={{marginRight: "5px"}} >
+                    <a style={{color: "white"}} href="https://github.com/damiandeleon"><IoLogoGithub /></a>
+                </column>
+                <column style={{marginLeft: "5px"}}>
+                    <a style={{color: "white"}} href="https://www.linkedin.com/in/damian-edmonson-de-leon-051b4b2b/"><FaLinkedinIn /></a>
+                </column>
 
-            </h2>
-           
-
+            </row>
         </footer>
 
     )

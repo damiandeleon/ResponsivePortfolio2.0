@@ -17,15 +17,25 @@ body {
   margin: 10px;
 }
 
-.cardHeader {
+.funFont {
   font-family: 'Monoton';
+  font-size: "13px";
+  color: rgb(100, 117, 139) !important;
+}
+
+.card-header {
+  font-family: 'Monoton';
+  font-size: "13px";
   color: rgb(100, 117, 139) !important;
   background-color: #FFFFFF;
 }
 
 .CardPad {
   display: inline-flex;
+}
 
+.col {
+  background-color: lightgray;
 }
 .navbar-brand {
   width: 200px;
@@ -34,7 +44,7 @@ body {
   /* font-weight: bold!important ; */
   /* background-color: rgb(100, 117, 139); */
   color: rgb(100, 117, 139) !important;
-  font-size: xx-large;
+  font-size: 27px;
 }
 .navbar {
   background-color: lavender;
@@ -43,22 +53,10 @@ body {
   background-color: rgb(100, 117, 139);
   border-color: black;
 }
-.contactBox {
-  margin-left: 7%;
-  width: 50%;
-}
 
 p {color: rgb(100, 117, 139);}
 
 a {align-self: center;}
-
-.container{
-  background-color: transparent
-}
-
-.contactCard, .CardPad {
-  padding-bottom: 15px;
-}
 
 #page-container {
   position: relative;
@@ -66,7 +64,6 @@ a {align-self: center;}
 }
 
 .portfolioPad {
-  display: inline;
   margin:auto
 }
 
@@ -75,14 +72,13 @@ a {align-self: center;}
 }
 
 #footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;        
+  margin-bottom: 50px;
+  width: 100%;        
 }
 
 .pic1{
-  width: 350px;
+  width: 250px;
+  padding-left: 25px;
 }
 
 #pic2{
@@ -96,5 +92,6 @@ a {align-self: center;}
 }
 
 #ProfilePic{
-  width:25%;
+  width:250px;
+  margin: 15px;
 }
