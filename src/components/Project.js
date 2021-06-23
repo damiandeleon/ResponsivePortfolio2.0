@@ -11,20 +11,29 @@ const Project = (props) => {
                         <div className="card CardPad">
                             <div className="card-header h1 pt-4 pb-3 ">
                                 Portfolio
-                             </div>
+                            </div>
+                            <div className="card-group col justify-content-center margin-auto">
 
-                             {props.details.map(project => {
-                                 return (
-                                    <div className="col" key={project.id}>
-                                        <div className="card" style={{ border: "lightblue 5px solid", borderRadius: "25px"}}>
-                                            <p style={{ textAlign: "center", fontSize: "25px" }}>{project.name}</p>
-                                            <img src={project.img} className="card-img-top" alt="project screenshot" style={{ alignSelf: "center" }} />
-                                            <a href={project.deployURL} target="blank"> {project.deployTitle}</a>
-                                            <a href={project.gitHubURL} target="blank"> {project.gitHubTitle}</a>
+
+                                {props.details.map(project => {
+                                    return (
+                                        <div>
+                                            <div className="card" style={{ border: "lightblue 5px solid", borderRadius: "25px" }}>
+                                                <div key={project.id}>
+                                                    <h5 class="card-title">{project.name}</h5>
+                                                    <img src={project.img} className="card-img-top" alt="project screenshot" />
+                                                    <div className="card-body">
+                                                        <a href={project.deployURL} target="blank"> {project.deployTitle}</a>  |
+                                                        <a href={project.gitHubURL} target="blank"> {project.gitHubTitle}</a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                )
-                             })}
+               
+                                    )
+                                })}
+
+                            </div>
                         </div>
                     </div>
                 </div>

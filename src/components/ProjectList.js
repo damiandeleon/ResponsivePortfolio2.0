@@ -17,54 +17,54 @@ const ProjectList = () => {
             name: "Frienemies App",
             img: projectFR, 
             gitHubURL: "https://github.com/damiandeleon/project-2-group-3",
-            gitHubTitle: "Link to GitHub Repository",
+            gitHubTitle: "GitHub Repository",
             deployURL: "https://damp-thicket-88352.herokuapp.com/login",
-            deployTitle: "Link to Deployed Project"
+            deployTitle: "Deployed Project"
         },
         {
             id: 2,
             name: "Vacation Planner Application",
             img: projectVP,
             gitHubURL: "https://github.com/damiandeleon/vacation_planner/",
-            gitHubTitle: "Link to GitHub Repository",
+            gitHubTitle: "GitHub Repository",
             deployURL: "https://damiandeleon.github.io/vacation_planner/",
-            deployTitle: "Link to Deployed Project"
+            deployTitle: "Deployed Project"
         },
         {
             id: 3,
             name: "Day Planner Application",
             img: projectDP,
             gitHubURL: "https://github.com/damiandeleon/work-day-scheduler",
-            gitHubTitle: "Link to GitHub Repository",
+            gitHubTitle: "GitHub Repository",
             deployURL: "https://damiandeleon.github.io/work-day-scheduler/",
-            deployTitle: "Link to Deployed Project"
+            deployTitle: "Deployed Project"
         },
         {
             id: 4,
             name: "Password Generator Application",
             img: projectPG,
             gitHubURL: "https://github.com/damiandeleon/Password-Generator",
-            gitHubTitle: "Link to GitHub Repository",
+            gitHubTitle: "GitHub Repository",
             deployURL: "https://damiandeleon.github.io/Password-Generator/",
-            deployTitle: "Link to Deployed Project"
+            deployTitle: "Deployed Project"
         },
         {
             id: 5,
             name: "Weather Dashboard",
             img: projectWD,
             gitHubURL: "https://github.com/damiandeleon/Weather-Dashboard/",
-            gitHubTitle: "Link to GitHub Repository",
+            gitHubTitle: "GitHub Repository",
             deployURL: "https://damiandeleon.github.io/Weather-Dashboard/",
-            deployTitle: "Link to Deployed Project"
+            deployTitle: "Deployed Project"
         },
         {
             id: 6,
             name: "Note Taker Application",
             img: projectNT,
             gitHubURL: "https://github.com/damiandeleon/noteTaker",
-            gitHubTitle: "Link to GitHub Repository",
-            deployURL: "",
-            deployTitle: "See Github Link for instructions to launch locally"   
+            gitHubTitle: "GitHub Repository",
+            deployURL: "https://github.com/damiandeleon/noteTaker",
+            deployTitle: "_Launch Locally_"   
         },
     
     ];

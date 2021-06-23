@@ -20,7 +20,7 @@ const About = () => {
                                 </div>
 
                                 <article style={{margin: "20px"}}>
-                                    <p>My name is Damian Deleon. I am a graduate of the Coding Boot Camp at the Unviersity of Texas at Austin.  I am a certified Full-Stack Web Developmenr. I am curently open to new job opportunties in the tech
+                                    <p>My name is Damian Deleon. I am a graduate of the Coding Boot Camp at the Unviersity of Texas at Austin.  I am a certified Full-Stack Web Development. I am curently open to new job opportunties in the tech
                                         industry. If you are looking to hire a developer who also has proven experience
                                         with business sales, marketing, and customer service, please reach out!</p>
                                     <hr />
