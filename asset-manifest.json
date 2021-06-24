@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/css/main.79101e6d.chunk.css",
-    "main.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/main.c4a1f7f6.chunk.js",
-    "main.js.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/main.c4a1f7f6.chunk.js.map",
+    "main.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/main.fe3aed72.chunk.js",
+    "main.js.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/main.fe3aed72.chunk.js.map",
     "runtime-main.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/runtime-main.3b5bf75a.js",
     "runtime-main.js.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/runtime-main.3b5bf75a.js.map",
     "static/js/2.80b47e72.chunk.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/2.80b47e72.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.3b5bf75a.js",
     "static/js/2.80b47e72.chunk.js",
     "static/css/main.79101e6d.chunk.css",
-    "static/js/main.c4a1f7f6.chunk.js"
+    "static/js/main.fe3aed72.chunk.js"
   ]
 }
