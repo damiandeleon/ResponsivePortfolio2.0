@@ -16,7 +16,7 @@ const Footer = () => {
                     <a style={{color: "white"}} href="https://github.com/damiandeleon"><IoLogoGithub /></a>
                 </column>
                 <column style={{marginLeft: "5px"}}>
-                    <a style={{color: "white"}} href="https://www.linkedin.com/in/damian-edmonson-de-leon-051b4b2b/"><FaLinkedinIn /></a>
+                    <a style={{color: "white"}} href="https://www.linkedin.com/in/damian-de-leon-051b4b2b/"><FaLinkedinIn /></a>
                 </column>
 
             </row>
