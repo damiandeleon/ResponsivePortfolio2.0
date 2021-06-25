@@ -7,8 +7,8 @@ const Project = (props) => {
         <div>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-8 mt-5 portfolioPad" >
-                        <div className="card CardPad">
+                    <div className="col-md-11 mt-5 portfolioPad" >
+                        <div className="card CardPadPortfolio">
                             <div className="card-header h1 pt-4 pb-3 ">
                                 Portfolio
                             </div>

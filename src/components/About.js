@@ -2,7 +2,7 @@ import React from "react";
 import DamianLeatherJacket from "../Assets/Images/Damian_LeatherJacket.jpeg";
 import DamianInOffice from "../Assets/Images/damian-office.jpeg";
 import DamianLLAP from "../Assets/Images/Damian_LLAP.jpeg";
-import DamianResume from "../Assets/Damian-Deleon.pdf";
+import DamianResume from "../Assets/Deleon_Resume.pdf";
 
 const About = () => {
     return (
@@ -63,18 +63,39 @@ const About = () => {
                                     <h2 className="accordion-header" id="headingTwo">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            List Of Web Development Languages Skills
+                                            Languages Tools and Applications
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            I have worked on the following coding languages: * React * HTML * CSS * JavaScript *
-                                            AJAX * SQL * Node.js * API * GitHub * MySQL * JSON * OOP * MongoDB.
-                                            * Mongo Atlas * Heroku
-                                        </div>
-                                        <div>
-                                            <img src={DamianInOffice} id="pic2" alt="Damian in the office with arms folded and smiling" />
+                                            <ul>
+                                                    <li className="funFont">Languages</li>
+                                                    <ul>
+                                                        <li> JavaScript</li>
+                                                        <li> CSS</li>
+                                                        <li> HTML</li>
+                                                        <li> SQL</li>
+                                                        <li> NoSQL</li>
+                                                    </ul>
+                                                    <li className="funFont">Applications</li>
+                                                    <ul>
+                                                        <li> GitHub</li>
+                                                        <li> MongoDB</li>
+                                                        <li> MongoDB Atlas</li>
+                                                        <li> Heroku</li>
+                                                    </ul>
+                                                    <li className="funFont">Tools</li>
+                                                    <ul>
+                                                        <li> Express</li>
+                                                        <li> React</li>
+                                                        <li> Node</li>
+                                                        <li> API</li>
+                                                        <li> Handlebars</li>
+                                                        <li> Bootstrap</li>
+                                                        <li> Bootstrap React</li>
+                                                    </ul>
+                                                </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -88,25 +109,15 @@ const About = () => {
                                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Throughout my life I have been fortunate to make the most of my humble
-                                            beginnings. I grew up in a working-className family.  I
-                                            was inspired by the work ethic my parents practiced. That became my mantra.
-                                            Below are some things about me.
                                             <article>
+                                                <br></br>
                                                 <ul>
                                                     <li>I volunteered in a prison ministry for 3 years</li>
                                                     <li>I am LGBT+ 🏳️‍🌈 </li>
                                                     <li>I support Mobile Loaves and Fishes to help the homeless</li>
-                                                    <li>My immediate family is made up of three generations (The Great
-                                                        Generation,
-                                                        Baby Boomers, and Gen X)</li>
                                                     <li>I am a Trekkie 🖖🏼 </li>
                                                     <li>I practice physical fitness to stay healthy</li>
-                                                    <li>I believe healthy masculnity means a man should provide, protect, and
-                                                        preside in the lives of our loved ones.</li>
                                                 </ul>
-                                                <img src={DamianLLAP} id="pic3"
-                                                    alt="Damian making LLAP hand sign" />
                                             </article>
 
                                         </div>
