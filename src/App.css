@@ -39,7 +39,7 @@ background: radial-gradient(circle, rgba(203,182,242,1) 0%, rgba(148,187,233,1) 
   width: 75%;
 }
 
-.col {
+.colBackground {
   background: rgb(203,182,242);
   background: radial-gradient(circle, rgba(203,182,242,1) 0%, rgba(222,222,222,1) 100%);
 }
@@ -49,6 +49,7 @@ background: radial-gradient(circle, rgba(203,182,242,1) 0%, rgba(148,187,233,1) 
 }
 
 #footer {
+  margin-top: 10px;
   margin-bottom: 50px;
   width: 100%;        
 }

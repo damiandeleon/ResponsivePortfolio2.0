@@ -1,7 +1,5 @@
 import React from "react";
 import DamianLeatherJacket from "../Assets/Images/Damian_LeatherJacket.jpeg";
-import DamianInOffice from "../Assets/Images/damian-office.jpeg";
-import DamianLLAP from "../Assets/Images/Damian_LLAP.jpeg";
 import DamianResume from "../Assets/Deleon_Resume.pdf";
 
 const About = () => {
@@ -33,7 +31,7 @@ const About = () => {
                                             href="https://www.linkedin.com/in/damian-de-leon-051b4b2b/"
                                             target="blank">LinkedIn</a></p>
                                         <p>GitHub Profile: <a href="https://github.com/damiandeleon" target="blank">GitHub</a></p>
-                                        <p>Download Damian's Resume: <a href={DamianResume} target="_blank">Resume</a>
+                                        <p>Download Damian's Resume: <a href={DamianResume} target="_blank" rel="_blank">Resume</a>
                                         </p>
                                     </div>
                                 </article>

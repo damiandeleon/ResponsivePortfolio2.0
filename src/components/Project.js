@@ -12,7 +12,7 @@ const Project = (props) => {
                             <div className="card-header h1 pt-4 pb-3 ">
                                 Portfolio
                             </div>
-                            <div className="card-group col justify-content-center margin-auto">
+                            <div className="card-group colBackground justify-content-center margin-auto">
 
 
                                 {props.details.map(project => {
