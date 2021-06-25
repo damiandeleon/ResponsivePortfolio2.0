@@ -20,18 +20,21 @@ const About = () => {
                                     <img src={DamianLeatherJacket} className="rounded float-start pe-3 pic1" alt="Damian with leather jacket" />
                                 </div>
 
-                                <article style={{margin: "20px"}}>
-                                    <p>My name is Damian Deleon. I am a graduate of the Coding Boot Camp at the Unviersity of Texas at Austin.  I am a certified Full-Stack Web Development. I am curently open to new job opportunties in the tech
-                                        industry. If you are looking to hire a developer who also has proven experience
-                                        with business sales, marketing, and customer service, please reach out!</p>
+                                <article>
+                                    <div className="aboutMeSpacing">
+                                        <p>My name is Damian Deleon. I am a graduate of the Coding Boot Camp at the Unviersity of Texas at Austin.  I am a certified Full-Stack Web Development. I am curently open to new job opportunties in the tech
+                                            industry. If you are looking to hire a developer who also has proven experience
+                                            with business sales, marketing, and customer service, please reach out!</p>
+                                    </div>
+
                                     <hr />
-                                    <div style={{margin: "20px"}}>
-                                    <p>Damian's Linked In Profile: <a
-                                        href="https://www.linkedin.com/in/damian-de-leon-051b4b2b/"
-                                        target="blank">LinkedIn</a></p>
-                                    <p>GitHub Profile: <a href="https://github.com/damiandeleon" target="blank">GitHub</a></p>
-                                    <p>Download Damian's Resume: <a href={DamianResume} target="_blank">Resume</a>
-                                    </p>
+                                    <div className="aboutMeSpacing">
+                                        <p>Damian's Linked In Profile: <a
+                                            href="https://www.linkedin.com/in/damian-de-leon-051b4b2b/"
+                                            target="blank">LinkedIn</a></p>
+                                        <p>GitHub Profile: <a href="https://github.com/damiandeleon" target="blank">GitHub</a></p>
+                                        <p>Download Damian's Resume: <a href={DamianResume} target="_blank">Resume</a>
+                                        </p>
                                     </div>
                                 </article>
                             </div>
@@ -70,32 +73,32 @@ const About = () => {
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
                                             <ul>
-                                                    <li className="funFont">Languages</li>
-                                                    <ul>
-                                                        <li> JavaScript</li>
-                                                        <li> CSS</li>
-                                                        <li> HTML</li>
-                                                        <li> SQL</li>
-                                                        <li> NoSQL</li>
-                                                    </ul>
-                                                    <li className="funFont">Applications</li>
-                                                    <ul>
-                                                        <li> GitHub</li>
-                                                        <li> MongoDB</li>
-                                                        <li> MongoDB Atlas</li>
-                                                        <li> Heroku</li>
-                                                    </ul>
-                                                    <li className="funFont">Tools</li>
-                                                    <ul>
-                                                        <li> Express</li>
-                                                        <li> React</li>
-                                                        <li> Node</li>
-                                                        <li> API</li>
-                                                        <li> Handlebars</li>
-                                                        <li> Bootstrap</li>
-                                                        <li> Bootstrap React</li>
-                                                    </ul>
+                                                <li className="funFont">Languages</li>
+                                                <ul>
+                                                    <li> JavaScript</li>
+                                                    <li> CSS</li>
+                                                    <li> HTML</li>
+                                                    <li> SQL</li>
+                                                    <li> NoSQL</li>
                                                 </ul>
+                                                <li className="funFont">Applications</li>
+                                                <ul>
+                                                    <li> GitHub</li>
+                                                    <li> MongoDB</li>
+                                                    <li> MongoDB Atlas</li>
+                                                    <li> Heroku</li>
+                                                </ul>
+                                                <li className="funFont">Tools</li>
+                                                <ul>
+                                                    <li> Express</li>
+                                                    <li> React</li>
+                                                    <li> Node</li>
+                                                    <li> API</li>
+                                                    <li> Handlebars</li>
+                                                    <li> Bootstrap</li>
+                                                    <li> Bootstrap React</li>
+                                                </ul>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
