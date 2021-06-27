@@ -12,7 +12,7 @@ const Contact = () => {
                             <div className="card-header h1 pt-4 pb-3">
                                 Contact Me Directly
                             </div>
-                            <div>
+                            <div className="card-background">
                                     <div>
                                         <img src={DamianProfilePic} id="ProfilePic" alt="Damian Profile Pic"/>
                                     </div>

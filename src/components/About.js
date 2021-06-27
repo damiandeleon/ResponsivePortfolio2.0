@@ -15,7 +15,7 @@ const About = () => {
                             </div>
                             <div className="">
                                 <div>
-                                    <img src={DamianLeatherJacket} className="rounded float-start pe-3 pic1" alt="Damian with leather jacket" />
+                                    <img src={DamianLeatherJacket} className="rounded float-start pic1" alt="Damian with leather jacket" />
                                 </div>
 
                                 <article>
@@ -31,13 +31,13 @@ const About = () => {
                                             href="https://www.linkedin.com/in/damian-de-leon-051b4b2b/"
                                             target="blank">LinkedIn</a></p>
                                         <p>GitHub Profile: <a href="https://github.com/damiandeleon" target="blank">GitHub</a></p>
-                                        <p>Download Damian's Resume: <a href={DamianResume} target="_blank" rel="_blank">Resume</a>
+                                        <p>Download Damian's Resume: <a href={DamianResume} target="blank">Resume</a>
                                         </p>
                                     </div>
                                 </article>
                             </div>
 
-                            <div className="accordion" id="accordionExample">
+                            <div className="accordion card-header" id="accordionExample">
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="headingOne">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -47,7 +47,7 @@ const About = () => {
                                     </h2>
                                     <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
                                         data-bs-parent="#accordionExample">
-                                        <div className="accordion-body">
+                                        <div className="accordion-body card-background">
                                             I started my career in business after graduating college. For the years between 1997
                                             to 2020, I worked in the contact center industry. My professional career in Austin
                                             was devoted to Concentrix Corp. I had much success with the company between 2003 -
@@ -69,34 +69,54 @@ const About = () => {
                                     </h2>
                                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
-                                        <div className="accordion-body">
-                                            <ul>
-                                                <li className="funFont">Languages</li>
-                                                <ul>
-                                                    <li> JavaScript</li>
-                                                    <li> CSS</li>
-                                                    <li> HTML</li>
-                                                    <li> SQL</li>
-                                                    <li> NoSQL</li>
-                                                </ul>
-                                                <li className="funFont">Applications</li>
-                                                <ul>
-                                                    <li> GitHub</li>
-                                                    <li> MongoDB</li>
-                                                    <li> MongoDB Atlas</li>
-                                                    <li> Heroku</li>
-                                                </ul>
-                                                <li className="funFont">Tools</li>
-                                                <ul>
-                                                    <li> Express</li>
-                                                    <li> React</li>
-                                                    <li> Node</li>
-                                                    <li> API</li>
-                                                    <li> Handlebars</li>
-                                                    <li> Bootstrap</li>
-                                                    <li> Bootstrap React</li>
-                                                </ul>
-                                            </ul>
+                                        <div className="accordion-body card-background table-responsive-sm">
+                                            <table className="table" >
+                                                <thead>
+                                                <tr>
+                                                        <th scope="col">Languages</th>
+                                                        <th scope="col">Applications</th>
+                                                        <th scope="col">Tools</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                        <td>JavaScript</td>
+                                                        <td>GitHub</td>
+                                                        <td>Express</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>CSS</td>
+                                                        <td>MongoDB</td>
+                                                        <td>React</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>HTML</td>
+                                                        <td>MongoDB Atlas</td>
+                                                        <td>Node</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>SQL</td>
+                                                        <td>Heroku</td>
+                                                        <td>API</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>NoSQL</td>
+                                                        <td>GitHub</td>
+                                                        <td>Handlebars</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> </td>
+                                                        <td> </td>
+                                                        <td>Bootstrap</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> </td>
+                                                        <td> </td>
+                                                        <td>Bootstrap React</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
                                         </div>
                                     </div>
                                 </div>
@@ -109,7 +129,7 @@ const About = () => {
                                     </h2>
                                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
                                         data-bs-parent="#accordionExample">
-                                        <div className="accordion-body">
+                                        <div className="accordion-body card-background">
                                             <article>
                                                 <br></br>
                                                 <ul>

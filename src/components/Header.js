@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                 <div className="container-fluid ps-4" >
                     <a className="navbar-brand nav-link" href="#/">Damian DeLeon</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

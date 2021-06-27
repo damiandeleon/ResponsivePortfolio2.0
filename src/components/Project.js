@@ -2,7 +2,6 @@ import React from "react";
 
 
 const Project = (props) => {
-    console.log(props.details)
     return (
         <div>
             <div className="container">
@@ -20,7 +19,7 @@ const Project = (props) => {
                                         <div>
                                             <div className="card" style={{ border: "lightblue 5px solid", borderRadius: "25px" }}>
                                                 <div key={project.id}>
-                                                    <h5 class="card-title">{project.name}</h5>
+                                                    <h5 className="card-title">{project.name}</h5>
                                                     <img src={project.img} className="card-img-top" alt="project screenshot" />
                                                     <div className="card-body">
                                                         <a href={project.deployURL} target="blank"> {project.deployTitle}</a>  |
