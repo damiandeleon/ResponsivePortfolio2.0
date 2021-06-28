@@ -6,7 +6,7 @@ const Project = (props) => {
         <div>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-11 mt-5 portfolioPad" >
+                    <div className="col-md-12 mt-5 portfolioPad" >
                         <div className="card CardPadPortfolio">
                             <div className="card-header h1 pt-4 pb-3 ">
                                 Portfolio
@@ -17,7 +17,7 @@ const Project = (props) => {
                                 {props.details.map(project => {
                                     return (
                                         <div>
-                                            <div className="card" style={{ border: "lightblue 5px solid", borderRadius: "25px" }}>
+                                            <div className="card" style={{ border: "lightblue 5px solid", borderRadius: "25px", margin:"20px" }}>
                                                 <div key={project.id}>
                                                     <h5 className="card-title">{project.name}</h5>
                                                     <img src={project.img} className="card-img-top" alt="project screenshot" />

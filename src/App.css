@@ -11,12 +11,18 @@
 body {
   background: rgb(203,182,242);
   background: radial-gradient(circle, rgba(203,182,242,1) 0%, rgba(134,134,134,1) 100%);
-  font-size: 16px;
+  font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .btn {
-  background-color: rgb(100, 117, 139);
-  border-color: black;
+  background-color: rgb(156, 175, 201);
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px 1px darkslateblue;
+}
+
+.card{
+  box-shadow: 0px 0px 10px 6px darkslateblue;
 }
 
 .card-header {
@@ -35,11 +41,13 @@ body {
 
 .CardPadPortfolio {
   display: inline-flex;
+  box-shadow: 1px 1px 15px 1px lightcyan;
 }
 
 .CardPad {
   display: inline-flex;
   width: 100%;
+  box-shadow: 1px 1px 15px 1px lightcyan;
 }
 
 .colBackground {
@@ -54,14 +62,43 @@ body {
   width: 100%;        
 }
 
+form {
+  max-width: 100%;
+  margin: 5px;
+  padding: 20px;
+  border-style: ridge;
+  border-color:rgb(93, 109, 129);
+}
+
+form label {
+  min-width: 100%;
+}
+
+form input {
+  min-width: 40%;
+  box-shadow: 3px 1px 4px 0px darkslateblue;
+}
+
 .funFont {
   font-family: 'Monoton';
   font-size: "13px";
   color: rgb(111, 129, 153) !important;
 }
 
+label {
+  min-width: 100%;
+  font-family: 'Monoton';
+  font-weight:900;
+  color: rgb(93, 109, 129) !important;
+}
+
 li {
   text-align: left;
+}
+
+#messageLabel {
+  margin-top: 20px;
+  min-width: 100%;
 }
 
 .navbar-brand {
@@ -81,7 +118,7 @@ li {
 }
 
 .portfolioPad {
-  margin:auto
+  margin:auto;
 }
 
 .pic1 {
@@ -107,6 +144,11 @@ li {
   margin: 10px;
 }
 
+textarea {
+  min-width: 90%;
+  min-height: 100px;
+  box-shadow: 3px 1px 4px 0px darkslateblue;
+}
 
 @media screen and (min-width: 770px){
   .pic1{
