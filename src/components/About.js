@@ -1,6 +1,6 @@
 import React from "react";
 import DamianLeatherJacket from "../Assets/Images/Damian_LeatherJacket.jpeg";
-import DamianResume from "../Assets/Deleon_Resume.pdf";
+import DamianResume from "../Assets/Damian_Deleon_Resume.pdf";
 
 const About = () => {
     return (
