@@ -1,4 +1,4 @@
-import { React, useState, } from "react";
+import React from "react";
 import DamianProfilePic from '../Assets/Images/ProfilePic.jpg';
 
 const Contact = () => {

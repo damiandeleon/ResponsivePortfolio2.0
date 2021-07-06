@@ -20,7 +20,7 @@ const About = () => {
 
                                 <article>
                                     <div className="aboutMeSpacing">
-                                        <p>My name is Damian Deleon. I am a graduate of the Coding Boot Camp at the Unviersity of Texas at Austin.  I am a certified Full-Stack Web Development. I am curently open to new job opportunties in the tech
+                                        <p>My name is Damian Deleon. I am a graduate of the Coding Boot Camp at the University of Texas at Austin.  I am a certified Full-Stack Web Development. I am currently open to new job opportunities in the tech
                                             industry. If you are looking to hire a developer who also has proven experience
                                             with business sales, marketing, and customer service, please reach out!</p>
                                     </div>

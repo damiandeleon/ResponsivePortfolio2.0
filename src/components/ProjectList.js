@@ -3,7 +3,7 @@ import projectVP from "../Assets/Images/groupProjectVacationPlanner.png";
 import projectDP from '../Assets/Images/dayPlannerApp.png';
 import projectPG from "../Assets/Images/passwordGeneratorApp.png";
 import projectWD from "../Assets/Images/weatherDashboard.png";
-import projectNT from "../Assets/Images/noteTaker.png";
+import projectMM from "../Assets/Images/mindManagedApp.png";
 import projectFR from "../Assets/Images/frienemies.png";
 import Project from "../Components/Project";
 
@@ -14,6 +14,15 @@ const ProjectList = () => {
     const projectDetails = [
         {
             id: 1,
+            name: "Mind Managed Application",
+            img: projectMM,
+            gitHubURL: "https://github.com/damiandeleon/project-3-group-8",
+            gitHubTitle: "GitHub Repository",
+            deployURL: "https://obscure-beyond-60909.herokuapp.com/",
+            deployTitle: "Deployed Project" 
+        },
+        {
+            id: 2,
             name: "Frienemies App",
             img: projectFR, 
             gitHubURL: "https://github.com/damiandeleon/project-2-group-3",
@@ -22,7 +31,7 @@ const ProjectList = () => {
             deployTitle: "Deployed Project"
         },
         {
-            id: 2,
+            id: 3,
             name: "Vacation Planner Application",
             img: projectVP,
             gitHubURL: "https://github.com/damiandeleon/vacation_planner/",
@@ -31,7 +40,7 @@ const ProjectList = () => {
             deployTitle: "Deployed Project"
         },
         {
-            id: 3,
+            id: 4,
             name: "Day Planner Application",
             img: projectDP,
             gitHubURL: "https://github.com/damiandeleon/work-day-scheduler",
@@ -40,7 +49,7 @@ const ProjectList = () => {
             deployTitle: "Deployed Project"
         },
         {
-            id: 4,
+            id: 5,
             name: "Password Generator Application",
             img: projectPG,
             gitHubURL: "https://github.com/damiandeleon/Password-Generator",
@@ -49,22 +58,13 @@ const ProjectList = () => {
             deployTitle: "Deployed Project"
         },
         {
-            id: 5,
+            id: 6,
             name: "Weather Dashboard",
             img: projectWD,
             gitHubURL: "https://github.com/damiandeleon/Weather-Dashboard/",
             gitHubTitle: "GitHub Repository",
             deployURL: "https://damiandeleon.github.io/Weather-Dashboard/",
             deployTitle: "Deployed Project"
-        },
-        {
-            id: 6,
-            name: "Note Taker Application",
-            img: projectNT,
-            gitHubURL: "https://github.com/damiandeleon/noteTaker",
-            gitHubTitle: "GitHub Repository",
-            deployURL: "https://github.com/damiandeleon/noteTaker",
-            deployTitle: "_Launch Locally_"   
         },
     
     ];
