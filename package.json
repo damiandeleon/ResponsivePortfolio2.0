@@ -17,7 +17,7 @@
     "web-vitals": "^1.1.2"
   },
 
-  "homepage": "https://https://damiandeleon.github.io/ResponsivePortfolio2.0/",
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
