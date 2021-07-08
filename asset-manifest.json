@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/css/main.50f8d1c6.chunk.css",
-    "main.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/main.f2d2fe93.chunk.js",
-    "main.js.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/main.f2d2fe93.chunk.js.map",
+    "main.css": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/css/main.eeec21e6.chunk.css",
+    "main.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/main.11ea90f6.chunk.js",
+    "main.js.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/main.11ea90f6.chunk.js.map",
     "runtime-main.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/runtime-main.0238248e.js",
     "runtime-main.js.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/runtime-main.0238248e.js.map",
     "static/js/2.2a384fc9.chunk.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/2.2a384fc9.chunk.js",
     "static/js/2.2a384fc9.chunk.js.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/2.2a384fc9.chunk.js.map",
     "index.html": "//damiandeleon.github.io/ResponsivePortfolio2.0/index.html",
-    "static/css/main.50f8d1c6.chunk.css.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/css/main.50f8d1c6.chunk.css.map",
+    "static/css/main.eeec21e6.chunk.css.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/css/main.eeec21e6.chunk.css.map",
     "static/js/2.2a384fc9.chunk.js.LICENSE.txt": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/2.2a384fc9.chunk.js.LICENSE.txt",
     "static/media/Damian_Deleon_Resume.ed334f4e.pdf": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/Damian_Deleon_Resume.ed334f4e.pdf",
     "static/media/Damian_LeatherJacket.b2c51641.jpeg": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/Damian_LeatherJacket.b2c51641.jpeg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.0238248e.js",
     "static/js/2.2a384fc9.chunk.js",
-    "static/css/main.50f8d1c6.chunk.css",
-    "static/js/main.f2d2fe93.chunk.js"
+    "static/css/main.eeec21e6.chunk.css",
+    "static/js/main.11ea90f6.chunk.js"
   ]
 }
