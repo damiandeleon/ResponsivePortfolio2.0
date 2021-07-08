@@ -20,9 +20,7 @@ const About = () => {
 
                                 <article>
                                     <div className="aboutMeSpacing">
-                                        <p>My name is Damian Deleon. I am a graduate of the Coding Boot Camp at the University of Texas at Austin.  I am a certified Full-Stack Web Development. I am currently open to new job opportunities in the tech
-                                            industry. If you are looking to hire a developer who also has proven experience
-                                            with business sales, marketing, and customer service, please reach out!</p>
+                                        <p>Full Stack Web Developer with a Bachelors in Business and over 20 years of experience working for companies like IBM, Facebook, Apple, and General Motors.  Earned a certificate from the Coding Boot Camp at the University of Texas in Austin.  Skilled in the fundamentals of HTML, CSS, Bootstrap, and React.js and excited to learn more and expand my knowledge base.  Efficient worker and a strategic thinker with the ability to pivot upon changing conditions.  Goal is to build websites and apps that provide a practical service to people and businesses.  Excited to join a team that is fast-paced and quality-driven and help them make a positive impact on the world.</p>
                                     </div>
 
                                     <hr />
