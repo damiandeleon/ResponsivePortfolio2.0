@@ -85,6 +85,12 @@ form input {
   font-size: "13px";
   color: rgb(111, 129, 153) !important;
 }
+.gitHubIcon, .linkedInIcon{
+  font-size: 20px;
+  margin-right: 5px;
+  margin-left: 10px;
+  color: white;
+}
 
 h1{
   word-spacing: 10px;
@@ -105,10 +111,6 @@ li {
   text-align: left;
 }
 
-.gitHubIcon, .linkedInIcon {
-  margin-right: 5px;
-  color: white;
-}
 
 #messageLabel {
   margin-top: 20px;
