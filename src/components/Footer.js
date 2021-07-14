@@ -12,9 +12,9 @@ const Footer = () => {
             </div>
             <div className="row">
                 <div>
-                    <a style={{ marginRight: "5px", color: "white" }} href="https://github.com/damiandeleon"><IoLogoGithub /></a>
+                    <a className="gitHubIcon"  href="https://github.com/damiandeleon"><IoLogoGithub /></a>
                     
-                    <a style={{ marginLeft: "5px", color: "white" }} href="https://www.linkedin.com/in/damian-de-leon-051b4b2b/"><FaLinkedinIn /></a>
+                    <a className="linkedInIcon" href="https://www.linkedin.com/in/damian-de-leon-051b4b2b/"><FaLinkedinIn /></a>
                 </div>
             </div>
         </footer>

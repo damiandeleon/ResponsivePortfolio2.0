@@ -28,7 +28,6 @@ body {
 .card-header {
   font-family: 'Monoton';
   color: #484B63 !important;
-  word-spacing: 10px;
   background: rgb(203,182,242);
   background: radial-gradient(circle, rgba(203,182,242,1) 0%, rgba(148,187,233,1) 100%);
 }
@@ -87,6 +86,14 @@ form input {
   color: rgb(111, 129, 153) !important;
 }
 
+h1{
+  word-spacing: 10px;
+}
+
+.accordion-button{
+  word-spacing: 3px;
+}
+
 label {
   min-width: 100%;
   font-family: 'Monoton';
@@ -96,6 +103,11 @@ label {
 
 li {
   text-align: left;
+}
+
+.gitHubIcon, .linkedInIcon {
+  margin-right: 5px;
+  color: white;
 }
 
 #messageLabel {
@@ -130,8 +142,6 @@ li {
   margin-left: 4%;
 }
 
-
-
 .pic2{
   max-width: 300px;
   border: 2px black solid;
@@ -146,6 +156,7 @@ li {
   width: 190px;
   margin: 10px;
 }
+
 
 textarea {
   min-width: 90%;
