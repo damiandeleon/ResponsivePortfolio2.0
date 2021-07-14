@@ -27,7 +27,8 @@ body {
 
 .card-header {
   font-family: 'Monoton';
-  color: rgb(100, 117, 139) !important;
+  color: #484B63 !important;
+  word-spacing: 10px;
   background: rgb(203,182,242);
   background: radial-gradient(circle, rgba(203,182,242,1) 0%, rgba(148,187,233,1) 100%);
 }
@@ -57,6 +58,7 @@ body {
 
 
 #footer {
+  font-size: medium;
   margin-top: 10px;
   margin-bottom: 50px;
   width: 100%;        
@@ -104,8 +106,9 @@ li {
 .navbar-brand {
   text-align: center;
   font-family: 'Monoton';
-  color: rgb(114, 134, 160) !important;
-  font-size: 3vh;
+  word-spacing: 7px !important;
+  color: rgb(114, 134, 160)!important;
+  font-size: 2.9vh;
 }
 .navbar {
   background-color: lavender;

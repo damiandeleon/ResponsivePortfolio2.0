@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer id="footer">
             <div>
-                <h6 >Designed by Damian De Leon Copyright © {year} </h6>
+                <p >Designed by Damian De Leon Copyright © {year} </p>
             </div>
             <div className="row">
                 <div>

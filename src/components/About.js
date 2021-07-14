@@ -10,9 +10,9 @@ const About = () => {
                 <div className="row">
                     <div className="mt-5">
                         <div className="card CardPad">
-                            <div className="card-header h1 pt-4 pb-3">
+                            <h1 className="card-header h1 pt-4 pb-3">
                                 About Me
-                            </div>
+                            </h1>
                             <div className="">
                                 <div>
                                     <img src={DamianLeatherJacket} className="rounded float-start pic1" alt="Damian with leather jacket" />

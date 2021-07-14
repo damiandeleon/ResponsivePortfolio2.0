@@ -10,9 +10,9 @@ const Contact = () => {
                 <div className="row">
                     <div className=" col-md-10 mt-5 portfolioPad">
                         <div className="card CardPad">
-                            <div className="card-header h1 pt-4 pb-3">
+                            <h1 className="card-header h1 pt-4 pb-3">
                                 Contact Me Directly
-                            </div>
+                            </h1>
                             <div className="card-background">
                                     <div>
                                         <img src={DamianProfilePic} id="ProfilePic" alt="Damian Profile Pic"/>
