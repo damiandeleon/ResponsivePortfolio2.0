@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/css/main.1b36c733.chunk.css",
-    "main.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/main.851ac28e.chunk.js",
-    "main.js.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/main.851ac28e.chunk.js.map",
-    "runtime-main.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/runtime-main.0238248e.js",
-    "runtime-main.js.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/runtime-main.0238248e.js.map",
-    "static/js/2.2a384fc9.chunk.js": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/2.2a384fc9.chunk.js",
-    "static/js/2.2a384fc9.chunk.js.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/2.2a384fc9.chunk.js.map",
-    "index.html": "//damiandeleon.github.io/ResponsivePortfolio2.0/index.html",
-    "static/css/main.1b36c733.chunk.css.map": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/css/main.1b36c733.chunk.css.map",
-    "static/js/2.2a384fc9.chunk.js.LICENSE.txt": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/js/2.2a384fc9.chunk.js.LICENSE.txt",
-    "static/media/Damian_Deleon_Resume.ed334f4e.pdf": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/Damian_Deleon_Resume.ed334f4e.pdf",
-    "static/media/Damian_LeatherJacket.b2c51641.jpeg": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/Damian_LeatherJacket.b2c51641.jpeg",
-    "static/media/ProfilePic.a7ed1ca1.jpg": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/ProfilePic.a7ed1ca1.jpg",
-    "static/media/dayPlannerApp.e4672399.png": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/dayPlannerApp.e4672399.png",
-    "static/media/frienemies.0749d362.png": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/frienemies.0749d362.png",
-    "static/media/groupProjectVacationPlanner.66f9ae91.png": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/groupProjectVacationPlanner.66f9ae91.png",
-    "static/media/mindManagedApp.c9ab0744.png": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/mindManagedApp.c9ab0744.png",
-    "static/media/passwordGeneratorApp.274ea18d.png": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/passwordGeneratorApp.274ea18d.png",
-    "static/media/weatherDashboard.04bae2a6.png": "//damiandeleon.github.io/ResponsivePortfolio2.0/static/media/weatherDashboard.04bae2a6.png"
+    "main.css": "/static/css/main.1b36c733.chunk.css",
+    "main.js": "/static/js/main.d979c615.chunk.js",
+    "main.js.map": "/static/js/main.d979c615.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dedfba91.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dedfba91.js.map",
+    "static/js/2.2a384fc9.chunk.js": "/static/js/2.2a384fc9.chunk.js",
+    "static/js/2.2a384fc9.chunk.js.map": "/static/js/2.2a384fc9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1b36c733.chunk.css.map": "/static/css/main.1b36c733.chunk.css.map",
+    "static/js/2.2a384fc9.chunk.js.LICENSE.txt": "/static/js/2.2a384fc9.chunk.js.LICENSE.txt",
+    "static/media/Damian_Deleon_Resume.c89fc9dc.pdf": "/static/media/Damian_Deleon_Resume.c89fc9dc.pdf",
+    "static/media/Damian_LeatherJacket.b2c51641.jpeg": "/static/media/Damian_LeatherJacket.b2c51641.jpeg",
+    "static/media/ProfilePic.a7ed1ca1.jpg": "/static/media/ProfilePic.a7ed1ca1.jpg",
+    "static/media/dayPlannerApp.e4672399.png": "/static/media/dayPlannerApp.e4672399.png",
+    "static/media/frienemies.0749d362.png": "/static/media/frienemies.0749d362.png",
+    "static/media/groupProjectVacationPlanner.66f9ae91.png": "/static/media/groupProjectVacationPlanner.66f9ae91.png",
+    "static/media/mindManagedApp.c9ab0744.png": "/static/media/mindManagedApp.c9ab0744.png",
+    "static/media/passwordGeneratorApp.274ea18d.png": "/static/media/passwordGeneratorApp.274ea18d.png",
+    "static/media/weatherDashboard.04bae2a6.png": "/static/media/weatherDashboard.04bae2a6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0238248e.js",
+    "static/js/runtime-main.dedfba91.js",
     "static/js/2.2a384fc9.chunk.js",
     "static/css/main.1b36c733.chunk.css",
-    "static/js/main.851ac28e.chunk.js"
+    "static/js/main.d979c615.chunk.js"
   ]
 }
